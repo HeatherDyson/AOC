@@ -42,12 +42,12 @@ def main():
 
             
     #part a
-    print("Highest seat ID:" + str(highestSeatID))
+    print("Highest seat ID:", highestSeatID)
 
     seatIDList.sort()
     missingNumbers = [x for x in range(seatIDList[0], seatIDList[-1]+1)  
                                if x not in seatIDList]
     #part b
-    print("My seat ID:" + str(missingNumbers))
+    print("My seat ID:", missingNumbers)
 
 main()
