@@ -13,7 +13,6 @@ def main():
     f.close()
 
     highestSeatID = 0
-    compareFields = []
     seatIDList = []
     for x in boardingPasses:
         rowCode = x[0:7]
