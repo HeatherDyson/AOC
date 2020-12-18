@@ -1,6 +1,4 @@
 # AOC
 Advent of Code
 
-This repository contains some of my solutions to the Advent of Code challenges.
-See branches for years.
-2020 - in python
+python code for AOC 2020
